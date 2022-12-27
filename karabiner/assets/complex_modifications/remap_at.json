@@ -1,0 +1,29 @@
+{
+  "title": "british custom",
+  "rules": [
+    {
+      "description": "remap @ key to shift + quote",
+        "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "quote",
+              "modifiers": {
+              "mandatory": [
+                "shift"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "2",
+                "modifiers": [
+                    "shift"
+                ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "title": "british custom",
+  "rules": [
+    {
+      "description": "remap hash key to quote",
+        "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "backslash"
+          },
+          "to": [
+            {
+              "key_code": "3",
+              "modifiers": [
+                "option"
+            ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "title": "british custom",
+  "rules": [
+    {
+      "description": "remap backslash to grave accent",
+        "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "grave_accent_and_tilde"
+          },
+          "to": [
+            {
+              "key_code": "backslash"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
